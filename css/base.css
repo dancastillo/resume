@@ -1,12 +1,17 @@
-.container{
-	margin: auto;
-    width: 50%;
-    border: 3px solid black;
-    padding-top: 20pt;
+body{
+	   background-color: #262626;
+	   color: #fff;
 }
+.container{
+	
+}
+
+a.link{
+
+}
+
 #header{
 	text-align: center;
-	background-color: #00e2e6;
 }
 
 .row{
@@ -15,12 +20,12 @@
 
 #myName{
 	text-align: center;
-	font-size: 50pt;
+	font-size: 40pt;
 	font-weight: bold;
 }
 
 .projects{
-	font-size: 12pt;
+	font-size: 15pt;
 	font-weight: bold;
 }
 
@@ -29,10 +34,14 @@
 	font-weight: bold;
 }
 .sectionTitle{
-	font-size: 15pt;
+	font-size: 20pt;
 	font-weight: bold;
 }
 
 .jobYears{
 	font-style: 10pt;
+}
+
+.pIndent{
+	text-indent: 25pt;
 }
