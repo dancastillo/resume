@@ -1,6 +1,7 @@
-body{
-	   background-color: #262626;
+body {
+	   background-color: #111;
 	   color: #fff;
+	   padding-top: 60px;
 }
 .container{
 	
@@ -8,6 +9,21 @@ body{
 
 a.link{
 
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+ }
+
+.navbar-nav li {
+      float: none;
+      display: inline-block;
+}
+
+
+.pswSections{
+	display: none;
 }
 
 #header{
