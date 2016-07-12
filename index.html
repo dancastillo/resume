@@ -64,21 +64,21 @@
         </div>
     </div>
 
- <section class="console-section">
-                <div ng-controller="console" ng-show="theme == 'modern'" class="ng-scope">
-                    <terminal terminal-class="mordern-terminal" terminal-config="modern">
-                        <p class="click-me">Click me to start commanding !</p>
-                    </terminal>
-                </div>
-                <div ng-controller="console" ng-show="theme == 'vintage'" class="ng-scope ng-hide">
-                    <terminal terminal-class="vintage-terminal" terminal-config="vintage">
-                        <p class="click-me">Type <strong>help</strong> to see a list of commands !</p>
-                    </terminal>
-                </div>
-            </section>
-        </section>
-
         <div class="container">
+
+            <section class="console-section">
+                    <div ng-controller="console" ng-show="theme == 'modern'" class="ng-scope">
+                        <terminal terminal-class="mordern-terminal" terminal-config="modern">
+                            <p class="click-me">Click me to start commanding !</p>
+                        </terminal>
+                    </div>
+                    <div ng-controller="console" ng-show="theme == 'vintage'" class="ng-scope ng-hide">
+                        <terminal terminal-class="vintage-terminal" terminal-config="vintage">
+                            <!--<p class="click-me">Type <strong>help</strong> to see a list of commands !</p>-->
+                        </terminal>
+                    </div>
+                </section>
+            </section>
 <!-- RELEVEANT PROJECTS -->
             <div class="pswSections">
                 <hr>
