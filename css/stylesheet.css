@@ -37,6 +37,18 @@ a.link{
 	text-align: left;
 }
 
+#header .row img {
+	float: left;
+    margin-left: 70px;
+}
+
+#header .row button{
+	text-align: right;
+	float: right;
+	font-weight: bold;
+	letter-spacing: 2pt;
+    margin-right: 100pt;
+}
 .row{
 	padding: 15pt 15pt 0 0;
 }
@@ -64,6 +76,10 @@ a.link{
     	2px 2px 0 #000;
     letter-spacing: 2pt;
     padding-right: 100pt;	
+}
+
+#terminalDiv{
+	display:none;
 }
 .projects{
 	font-size: 15pt;
