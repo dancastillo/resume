@@ -23,10 +23,6 @@ $(document).ready(function() {
 
 	 	$('#displayWeather').show().delay(5000).fadeOut();
 		
-
-		
 	});
-
-
 	
 });

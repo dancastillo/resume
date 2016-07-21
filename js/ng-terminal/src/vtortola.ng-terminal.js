@@ -51,16 +51,18 @@
                         });
                     });
                 }
+                
                 request.send();
                 return deferred.promise;;
             };
 
             for (var key in configurations) {
                 var c = configurations[key];
-                if (c.typeSoundUrl)
-                    c.getTypeEffect = loadNotificationSound($q, c.typeSoundUrl);
-                if (c.startSoundUrl)
-                    c.getStartEffect = loadNotificationSound($q, c.startSoundUrl);
+                //if (c.typeSoundUrl)
+                    //c.getTypeEffect = loadNotificationSound($q, c.typeSoundUrl);
+                //if (c.startSoundUrl)
+                    //c.getStartEffect = loadNotificationSound($q, c.startSoundUrl);
+                    
             }
 
             return function (configName) {
