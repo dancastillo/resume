@@ -7,7 +7,7 @@ $(document).ready(function() {
 	});
 	
 	$.ajax({
-        	url: "http://api.wunderground.com/api/26ef3640837b68be/conditions/q/CT/New%20Haven.json",
+        	url: "https://api.wunderground.com/api/26ef3640837b68be/conditions/q/CT/New%20Haven.json",
         	dataType : "jsonp",
         	success : function(parsed_json) {
             	let city = parsed_json['current_observation']['display_location']['city'];
