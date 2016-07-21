@@ -35,6 +35,10 @@ a.link{
 	/*display: none;*/
 }
 
+#displayWeather{
+	display: none;
+	text-align: center;
+}
 #header{
 	text-align: left;
 }

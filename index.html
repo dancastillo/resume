@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" >
     <title>Daniel Castillo Resume</title>
-    <script src="jquery-1.12.4.min.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script>
@@ -41,12 +41,14 @@
                     <a class="navbar-brand" href="#">WebSiteName</a>
                 </div>
                 -->
+                <div class="row" id="displayWeather"><p id="currentWeather"></p></div>
                 <ul class="nav navbar-nav">
                     <!-- <li class="active"><a href="#">Home</a></li> -->
                     <li><a href="mailto:dancastillo99@gmail.com"><img src="images/gmail.png" height="30px" width="45px" /></a></li>
                     <li><a href="http://github.com/dancastillo"><img src="images/githubWhite.png" height="30px" width="35px" /></a></li>
                     <li><a href="http://linkedin.com/in/daniel-castillo"><img src="images/linkedin.png" height="30px" width="35px" /></a></li>
                     <li><a href="#"><img src="images/resumeWhite.png" height="30px" width="35px" /></a></li>
+                    <li><button class="btn btn-info btn-sm" id="getWeather">Get Weather</button></li>
                 </ul>
             </div>
         </nav>
@@ -77,8 +79,20 @@
                     </section>
                 </section>
             </div>
+
 <!-- RELEVEANT PROJECTS -->
             <div class="pswSections">
+            <!--
+            <hr>
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="projects">Skills:</p>
+                    </div>
+                    <div class="col-md-10">
+                        <p>Java, HTML, CSS, Bash</p>
+                    </div>
+                </div>
+                -->
                 <hr>
                 <div class="row">
                     <div class="col-md-2">
@@ -87,7 +101,7 @@
                     
                     <div class="col-md-10">
                         <p class="projects">Android Application</p>
-                        <p>Senior Computer Science Capstone Design Project. I was required to learn, designed and developed an Android Application called Report-It which handled the creation, distribution, and modification of performing on-site reports in an attempt to save time and money.</p>
+                        <p>Senior Computer Science Capstone Design Project. Learn, designing and developing an Android Application called Report-It which handled the creation, distribution, and modification of performing on-site reports in an attempt to save time and money.</p>
                         <a href="http://github.com/dancastillo/Report-It_Android">[ Github Repo ]</a>
                         <p>TOOLS: Android Studio, PHP Storm, PHPmyAdmin, MySQL, Java, XML, JSON</p>
                     </div>    
@@ -113,8 +127,6 @@
                         <p>TOOLS: Eclipse, Java</p>
                     </div>
                 </div>
-
-              
 
         <!-- EDUCATION-->
                 <hr>
