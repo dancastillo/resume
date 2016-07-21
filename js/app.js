@@ -6,9 +6,7 @@ $(document).ready(function() {
 		$('#terminalDiv').toggle();
 	});
 	
-	$('#getWeather').click(function() {
-		//alert("this works");
-	 	$.ajax({
+	$.ajax({
         	url: "http://api.wunderground.com/api/26ef3640837b68be/conditions/q/CT/New%20Haven.json",
         	dataType : "jsonp",
         	success : function(parsed_json) {
@@ -20,6 +18,8 @@ $(document).ready(function() {
         	    $('#currentWeather').text(currentWeather);
     	    }
 	    }); 
+	$('#getWeather').click(function() {
+		//alert("this works");
 
 	 	$('#displayWeather').show().delay(5000).fadeOut();
 		
