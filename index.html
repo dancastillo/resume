@@ -38,11 +38,6 @@
     <body ng-app="ng-terminal-example">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
-            <!--
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">WebSiteName</a>
-                </div>
-                -->
                 <div class="row" id="displayWeather"><p id="currentWeather"></p></div>
                 <ul class="nav navbar-nav">
                     <!-- <li class="active"><a href="#">Home</a></li> -->
@@ -56,6 +51,9 @@
                 </ul>
             </div>
         </nav>
+
+
+        <!-- Header section with name, occupation, and terminal button -->
     <div class="jumbotron">
         <div id="header">
             <div class="row">
@@ -67,6 +65,8 @@
         </div>
     </div>
 
+
+        <!-- Section for the terminal emulator -->
         <div class="container">
             <div id="terminalDiv">
                 <section class="console-section">
@@ -77,27 +77,16 @@
                         </div>
                         <div ng-controller="console" ng-show="theme == 'vintage'" class="ng-scope ng-hide">
                             <terminal terminal-class="vintage-terminal" terminal-config="vintage">
-                                <!--<p class="click-me">Type <strong>help</strong> to see a list of commands !</p>-->
                             </terminal>
                         </div>
                     </section>
                 </section>
             </div>
 
-<!-- RELEVEANT PROJECTS -->
+
             <div class="pswSections">
-            <!--
-            <hr>
-                <div class="row">
-                    <div class="col-md-2">
-                        <p class="projects">Skills:</p>
-                    </div>
-                    <div class="col-md-10">
-                        <p>Java, HTML, CSS, Bash</p>
-                    </div>
-                </div>
-                -->
                 <hr>
+                <!-- RELEVEANT PROJECTS -->
                 <div class="row">
                     <div class="col-md-2">
                         <p class="sectionTitle">Projects</p>

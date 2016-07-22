@@ -173,6 +173,9 @@ a.link{
  		height: 275px;
  		padding-top: 0px;
  	}   
+ 	#getWeather{
+ 		display: none;
+ 	}
 
  	#header .row img {
  		margin-top: -35;
