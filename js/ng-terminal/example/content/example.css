@@ -1,4 +1,4 @@
-﻿html {
+﻿/*html {
     height: 100%;
     width: 100%;
     background-color: black;
@@ -10,10 +10,10 @@ body {
     padding: 0px;
     margin: 0px;
 }
-.console-section {
+.console-section {*/
     /* if the terminal is at the top of the webpage
     padding: 65px 10px 10px 10px;*/
-    width: 97%;
+    /*width: 97%;
     margin:0px;
     padding:10px;
     background: rgb(0,0,0);
@@ -94,7 +94,7 @@ body {
 }
 .instructions pre {
     margin-left:20px;
-} 
+}
 .head h1, .head h4 {
     margin: 3px;
     font-weight: normal;
@@ -204,4 +204,4 @@ a{
     #terminal-server-preview{
         display:none;
     }
-}
+}*/
