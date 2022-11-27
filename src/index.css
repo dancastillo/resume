@@ -44,11 +44,11 @@ li a {
 .self-name {
   padding: 15px;
   font-size: 35px;
-  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
 }
 
 .self-title {
   padding: 5px;
   font-size: 18px;
-  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
 }
